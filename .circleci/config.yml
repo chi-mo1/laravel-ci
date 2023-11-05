@@ -2,6 +2,6 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circle/php:7.3-node-browers
+      - image: circleci/php:7.3-node-browsers
     steps:
       - run: echo "Hello World"
